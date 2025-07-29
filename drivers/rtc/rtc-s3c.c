@@ -542,7 +542,7 @@ static int s3c_rtc_probe(struct platform_device *pdev)
 		return ret;
 
 	if (info->data->needs_src_clk) {
-		info->rtc_src_clk = devm_clk_get(&pdev->dev, "rtc_src");
+		info->rtc_src_clk = devm_clk_get(&pdev->dev, "rtc");
 		if (IS_ERR(info->rtc_src_clk)) {
 			ret = PTR_ERR(info->rtc_src_clk);
 			if (ret != -EPROBE_DEFER)

@@ -164,6 +164,7 @@ dtb-$(CONFIG_ARCH_EXYNOS4) += \
 	exynos4412-origen.dtb \
 	exynos4412-smdk4412.dtb \
 	exynos4412-tiny4412.dtb \
+	exynos4412-nanopc_t1.dtb \
 	exynos4412-trats2.dtb
 dtb-$(CONFIG_ARCH_EXYNOS5) += \
 	exynos5250-arndale.dtb \
